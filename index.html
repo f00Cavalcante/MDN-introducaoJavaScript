@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+      <!-- CSS -->
+      <link rel="stylesheet" href="./style/style.css">
+      <!-- JavaScript -->
+      <script async src="./code/script.js"></script>
+
+      <title>Adivinhe o número</title>
+   </head>
+   <body>
+      <main>
+         <h1>Jogo Adivinhe o número</h1>
+         <section class="sccInstruction" id="sccInstruction">
+            <p>
+               Um número aleatório será criado, ao clicar no botão 
+                  <em>"Gerar"</em>. <br>
+               Você terá 10 chances para adivinhar qual foi o valor gerado.
+            </p>
+            <p>
+               A cada tentativa, seu palpite será exibido, para ter certeza dos valores já informados.
+            </p>
+            <p>Consegue adivinhar o número gerado?</p>
+         </section>
+         <section class="sccGame" id="sccGame">
+            <button class="bttGerarNumero" id="bttGerarNumero">Gerar</button>
+            <div class="form" id="form">
+               <label for="iPalpiteUsuario">Digite seu palpite:</label>
+               <input disabled="true" type="text" class="iPalpiteUsuario" id="iPalpiteUsuario">
+               <input disabled="true" type="button" value="Enviar palpite" class="iPalpiteUsuario" id="bttPalpiteUsuario">
+            </div>
+         </section>
+      </main>
+   </body>
+</html>
