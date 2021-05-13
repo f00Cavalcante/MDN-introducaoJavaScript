@@ -1,0 +1,50 @@
+html
+{
+   background-color: rgba(0,0,0,0.900);
+   color: white;
+   font-family: 'Comfortaa', cursive;
+}
+   /* corpo */
+   body
+   {
+      /* estrutura */
+      margin: 0;
+      /* tamanho */
+      height: 95vh;
+      width: 99.9vw;
+   }
+      h1
+      {
+         /* estrutura */
+         padding: 15px 15px;
+         margin: 50px 25px;
+         /* texto */
+         font-size: 30px;
+         text-align: center;
+      }
+      section
+      {
+         font-size: 15px;
+         margin: 25px 50px;
+         letter-spacing: 1px;
+      }
+         .sccGame
+         {
+            display: grid;
+            /* alinhamento */
+            align-items: center;
+            justify-items: center;
+         }
+         .sccGame .bttGerarNumero, .iPalpiteUsuario, #bttReiniciarJogo
+         {
+            font-family: 'Comfortaa', cursive;
+            margin: 10px 0;
+            padding: 5px 10px;
+         }
+         .sccGame .form
+         {
+            display: grid;
+            /* alinhamento */
+            align-items: center;
+            justify-items: center;
+         }
